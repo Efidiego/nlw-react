@@ -1,5 +1,5 @@
 import { ChangeEvent, useState } from "react";
-import logo from "./assets/logo-nlw-expert.svg";
+import logo from "./assets/fastnote.png";
 import { NewNoteCard } from "./components/new-note-card";
 import { NoteCard } from "./components/note-card";
 
@@ -60,7 +60,7 @@ export function App() {
 
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6 px-5">
-      <img src={logo} alt="NLW Expert" />
+      <img src={logo} alt="FastNote"/>
 
       <form className="w-full">
         <input
